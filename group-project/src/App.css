@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    margin: 0%;
+    height: 100%;
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:85px;
+    box-shadow: 0 1px 3px rgba(15, 15, 15, 0.15);
+    background-color:#FFF6FF(272, 61%, 94%);
+    margin-top: 0%;
+    padding: 8px 12px;  
+    box-shadow: 0 1px 3px #0f0f0f26;
+  
+}
+.bar{
+    display: none;
+}
+.heyon-ul1{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-left: 0%;
+    margin-left: 3rem;
+    align-items: center;
+    
+      }
+.heyon-ul1 li{
+    padding:8px 12px;
+    font-family: Montserrat,sans-serif;
+    opacity: 90%;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-size: 130%;
+    list-style: none; 
+}
+.heyon-ul1 li:hover{
+    font-weight: bold;
+    font-size: 132%;
+    }
+.logo{
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    max-width: 15rem;
+    max-height: 6rem;
+}
+
+.moon-phase-image {
+    width:200px;
+    height: auto;
+    padding: 10px;
+}
+
+.moon-phase-card {
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   
+}
+
+.moon-phase-title {
+    margin:0;
+}
+
+.sun-image {
+    width: 300px;
+}
+
+/* .sun-rise-background {
+    background: linear-gradient(0deg, rgba(223,132,20,1) 17%, rgba(195,45,253,1) 56%);
+} */
+
+
+.footer{
+    font-family: Montserrat,sans-serif;
+    color:aliceblue;
+    height: 40px;
+    /* background-image: linear-gradient(to right top, #6b6bd1, #006ebe, #00699c, #005e74, #005152, #165950, #2a604c, #3d6648, #5e8658, #85a767, #b2c876, #e5e885); */
+    box-shadow: 0 1px 3px #0f0f0f26;
+    /* background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
+    background-color:#1B3D2F;
+    position:fixed;
+    left:0;
+    width:100%;
+    bottom:0%;
+    
+    
+}
+.footer p{
+
+ margin-top:1.5rem;
+ margin-left:1.5rem;
+}
+
+@media only screen and (max-width: 668px) {
+    body{
+        margin:0%;
+    }
+    .bar{display: flex;
+         /* background-image: linear-gradient(to right top, #6b6bd1, #006ebe, #00699c, #005e74, #005152, #165950, #2a604c, #3d6648, #5e8658, #85a767, #b2c876, #e5e885); */
+         background-color:#1B3D2F;
+         height:5rem;
+         width: 100%;
+         z-index: 999;}
+    .navbar{
+
+        position: fixed;
+        flex-direction: column;
+        background-color:#FFF6FF(272, 61%, 94%);
+        width: 100%;
+        padding-top: 0%;
+        padding-left: 0%;
+        padding-bottom: 20px;
+        text-align: center;
+        transition: 0.3s;
+        display: flex;
+        top: 0%;
+        height:9.5rem;
+       font-size: small;
+        
+
+    }
+
+   .homeBtn{
+    margin-right: 1.5rem;
+   }
+   .logo{
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+    max-width: 9rem;
+    max-height: 3.5rem;
+    
+   }
+    .heyon-ul1 {
+        top:0%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0%;
+        margin-top:0%;
+    }
+
+    .Header{
+
+    margin-top: 12rem;
+    }
+}
+
+
+.advice-title{
+    display: flex;
+    justify-content: center;
+}
+
+.get-advice{
+    display: flex;
+    justify-content: center; 
+    font-size: 1.5rem;  
+}
+
+.advice-author{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.advice-btn{
+    display: flex;
+    justify-content: center;
+}
+
+#advicebtn{
+    font-size: 1.2rem;
+
+}
+
+.main-components{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0deg, rgba(223,132,20,1) 17%, rgba(195,45,253,1) 56%);
+  
+ 
+}
+
+.city-search {
+    border-radius: 30px;
+    width: 350px;
+    height: 50px;
+    text-indent: 10px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.button {
+    margin: 15px;
+    padding: 20px;
+    border-radius: 30px;
+    width:300px;
+    background-color: salmon;
+    font-weight: bold;
+    font-size: 1.2rem;
+    
+   
+}
+.sun-info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  rgba(223,132,20,1);
+   
+    
+}
+
+.moon-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('./images/stars.jpg');
+    color:white;
+}
+
+.advice-div {
+    background: linear-gradient(0deg, rgba(223,132,20,1) 17%, rgba(195,45,253,1) 56%);
+    height:500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
