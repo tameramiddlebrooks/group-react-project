@@ -1,70 +1,33 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Daily Outlook
 
-## Available Scripts
+**Description**: Our app, ‘Daily Outlook’ is an app created using the React library. The purpose of the app is to allow users to view what time the sun will rise and set depending on their location, plus the option to view an inspirational quote and the current phase of the moon. The main goal of this app is to give users a space to access information with ease. For a variety of reasons, there are plenty of people that regularly need to know what time the sun will come up/go down, and what the current moon phase is. In addition, many people find it beneficial to start their day with a motivational quote. On a daily basis, our app gives users a quick, convenient, and visually appealing  way to access each of those things.
 
-In the project directory, you can run:
 
-### `npm start`
+**Wireframes**: Below are the Wireframes for this React App.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![image](https://user-images.githubusercontent.com/105788615/184565173-c8955e71-8e3a-48a3-ba5c-f10dcd91c884.png)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Component Hierarchy**: Below is the Component Hierarchy used map out this React App.
 
-### `npm run build`
+![image](https://user-images.githubusercontent.com/105788615/184565248-d43ab0a5-dbcb-42ba-b349-cd8699cd7ef0.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**API Documentation**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Sunrise/Sunset: https://sunrise-sunset.org/api 
 
-### `npm run eject`
+Moon and Moon Phase: https://dev.qweather.com/en/docs/api/astronomy/moon-and-moon-phase/ 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Quotes Free: https://type.fit/api/quotes (Did not have official documentation, only a Github repo and a Demo React Application 
+(Github repo: https://github.com/ssokurenko/quotes-react-app, 
+Demo React Application: https://quotes-react.netlify.app/) 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Minimum, Need to Have Features**: The need-to-have features exist on the Home page and the Daily Advice page. On our home page, a user can type in their city and choose between three button options (Sunrise, Sunset and Moon Phase), and when they press the button, the information they’re seeking will display. On the Daily Advice page, quality advice in the form of a motivational quote (and the author who wrote the quote) will display on the page just by clicking a button.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Post MVP**: Post MVP, we'd potentially like to implement a Weather API so that users will be able to use our App to check the weather on a daily basis in addition to the sunrise, sunset and moon phase.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Built With**: Built using JavaScript, CSS, HTML, and the React library.
